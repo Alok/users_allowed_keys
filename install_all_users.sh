@@ -26,5 +26,6 @@ if [ $host == 'bdd6' ]; then # bdd4 sudo users
 fi
 
 sudo add-apt-repository -y ppa:neovim-ppa/unstable
+sudo add-apt-repository -y ppa:jonathonf/python-3.6        
 sudo apt-get -y update
-sudo apt-get -y install neovim tmux zsh
+sudo apt-get -y install neovim tmux zsh highlight python3.6  python3.6-dev python3.6-venv
